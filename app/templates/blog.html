@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Простой блок</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-
-
-<div class="container">
-    <h1>Простой бло</h1>>
-    <form method="post" action="/">
-        <div>
-            <label> for="title">Заголовок</label>
-             <input id="title" type="text" name="title" required>
-        </div>
-         <div>
-            <label> for="title">Текст поста</label>
-             <input id="content"  name="title" rows required>
-        </div>
-    </form>
-
-
-
-
-
-
-</div>
-
-
-
-
-
 <body>
-
+    <div class="container">
+        <h1>Простой блок</h1>
+        <form method="post" action="/">
+            <div class="form-group">
+                <label for="title">Заголовок</label>
+                <input id="title" class="form-control" type="text" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="content">Текст поста</label>
+                <textarea id="content" class="form-control" rows="3" name="content" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Создать пост</button>
+        </form>
+        <hr>
+        <h2 class="mt-4">Посты</h2>
+        {% for post in posts %}
+            <div class="card my-3">
+                <div class="card-body">
+                    <h4 class="card-title">{{ post.title }}</h4>
+                    <p class="card-text">{{ post.content }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
 </body>
 </html>
