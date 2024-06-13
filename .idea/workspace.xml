@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3e4c4e9-0990-4656-9094-c9e00f096bcd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/image/sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/static/image/sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/blog_past.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_test.html" afterDir="false" />
-    </list>
+    <list default="true" id="e3e4c4e9-0990-4656-9094-c9e00f096bcd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
